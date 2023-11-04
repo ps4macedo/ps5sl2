@@ -32,7 +32,7 @@ function add_cache_event_toasts() {
     var appCache = window.applicationCache;
     
     if (!navigator.onLine) {
-        showToast('You are offline.');
+        showToast('Você está off-line');
     }
 
     appCache.addEventListener('cached', function (e) {
