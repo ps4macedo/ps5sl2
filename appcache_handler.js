@@ -55,7 +55,7 @@ function add_cache_event_toasts() {
     }, false);
 
     appCache.addEventListener('noupdate', function (e) {
-        showToast('Cache is up-to-date.');
+        showToast('Cache atualizada.');
     }, false);
 
     appCache.addEventListener('obsolete', function (e) {
